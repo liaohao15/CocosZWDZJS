@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2c3cd14c-e391-4e83-9cb8-32fc7da2b697",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 65,
+  "height": 73,
+  "platformSettings": {},
+  "subMetas": {
+    "Wallnut_cracked2_12": {
+      "ver": "1.0.6",
+      "uuid": "17240b7d-fd9d-47ad-8aa4-308fae3b9f09",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2c3cd14c-e391-4e83-9cb8-32fc7da2b697",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": -4,
+      "trimX": 3,
+      "trimY": 8,
+      "width": 61,
+      "height": 65,
+      "rawWidth": 65,
+      "rawHeight": 73,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

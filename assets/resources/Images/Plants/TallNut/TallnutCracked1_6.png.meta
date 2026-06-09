@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a487a416-4b13-4ef0-8cd2-8320e34252d9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 83,
+  "height": 119,
+  "platformSettings": {},
+  "subMetas": {
+    "TallnutCracked1_6": {
+      "ver": "1.0.6",
+      "uuid": "31b80ac1-eb2a-4e08-8b85-06a16edb0f0a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a487a416-4b13-4ef0-8cd2-8320e34252d9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 1,
+      "width": 80,
+      "height": 118,
+      "rawWidth": 83,
+      "rawHeight": 119,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

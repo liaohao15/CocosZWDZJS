@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7760efac-0d62-4a24-a256-927cffbb5243",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 166,
+  "height": 144,
+  "platformSettings": {},
+  "subMetas": {
+    "BucketheadZombieAttack_1": {
+      "ver": "1.0.6",
+      "uuid": "4b014366-64ff-4a2f-a514-2a1f2f6dd919",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7760efac-0d62-4a24-a256-927cffbb5243",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 8.5,
+      "offsetY": -4.5,
+      "trimX": 48,
+      "trimY": 9,
+      "width": 87,
+      "height": 135,
+      "rawWidth": 166,
+      "rawHeight": 144,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

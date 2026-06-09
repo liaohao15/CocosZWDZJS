@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "54563128-d378-42c8-b8de-cfbb5bcdddbb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 83,
+  "height": 84,
+  "platformSettings": {},
+  "subMetas": {
+    "TwinSunflower_20": {
+      "ver": "1.0.6",
+      "uuid": "dcadb635-25ac-4a37-a04f-cd8817173367",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "54563128-d378-42c8-b8de-cfbb5bcdddbb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 1,
+      "width": 79,
+      "height": 83,
+      "rawWidth": 83,
+      "rawHeight": 84,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,40 @@
+# 编辑器缓存和编译中间产物
+library/
+temp/
+.creator/
+.editor/
+.meta-cache/
+
+# 构建产物目录（所有平台的编译结果）
+build/
+dist/
+
+# 本地个人配置（包含个人路径、账号、编辑器偏好）
+local/*
+!local/local.json  # 保留程序入口配置，避免克隆后丢失最后打开的场景
+
+# 插件缓存和下载产物
+packages/
+
+# 自动生成的类型声明文件
+creator.d.ts
+
+# npm依赖
+node_modules/
+.pnpm-store/
+.yarn/
+
+# 编辑器配置
+.vscode/
+.idea/
+*.code-workspace
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

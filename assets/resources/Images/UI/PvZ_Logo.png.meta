@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "57853e82-c45b-44c5-a092-092c1b71f0a5",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 700,
+  "height": 116,
+  "platformSettings": {},
+  "subMetas": {
+    "PvZ_Logo": {
+      "ver": "1.0.6",
+      "uuid": "ba230bea-2f25-463f-8ba0-413d709ebfa2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "57853e82-c45b-44c5-a092-092c1b71f0a5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -7,
+      "offsetY": 0,
+      "trimX": 85,
+      "trimY": 0,
+      "width": 516,
+      "height": 116,
+      "rawWidth": 700,
+      "rawHeight": 116,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

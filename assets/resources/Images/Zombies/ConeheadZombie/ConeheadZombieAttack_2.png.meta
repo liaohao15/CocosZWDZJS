@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a7aca2d1-ca38-4124-897d-bf27018be3fe",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 166,
+  "height": 144,
+  "platformSettings": {},
+  "subMetas": {
+    "ConeheadZombieAttack_2": {
+      "ver": "1.0.6",
+      "uuid": "408122de-119b-43de-b49e-98969684c3e3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a7aca2d1-ca38-4124-897d-bf27018be3fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 39.5,
+      "offsetY": -1.5,
+      "trimX": 79,
+      "trimY": 3,
+      "width": 87,
+      "height": 141,
+      "rawWidth": 166,
+      "rawHeight": 144,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

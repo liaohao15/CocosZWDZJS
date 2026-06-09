@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "496d4725-0d20-43d8-b9e5-02680a4737f3",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 75,
+  "height": 55,
+  "platformSettings": {},
+  "subMetas": {
+    "PotatoMine_4": {
+      "ver": "1.0.6",
+      "uuid": "8bbca244-006b-4feb-9b52-df051268261e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "496d4725-0d20-43d8-b9e5-02680a4737f3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 74,
+      "height": 55,
+      "rawWidth": 75,
+      "rawHeight": 55,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

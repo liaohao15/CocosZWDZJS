@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "6abcc379-7716-46a6-9885-2189ae238434",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 73,
+  "height": 87,
+  "platformSettings": {},
+  "subMetas": {
+    "Torchwood_3": {
+      "ver": "1.0.6",
+      "uuid": "4cf12a58-25d3-4f07-88ee-5110c5870bf5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6abcc379-7716-46a6-9885-2189ae238434",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0.5,
+      "trimX": 1,
+      "trimY": 0,
+      "width": 70,
+      "height": 86,
+      "rawWidth": 73,
+      "rawHeight": 87,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

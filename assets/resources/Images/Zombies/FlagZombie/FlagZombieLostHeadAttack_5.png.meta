@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "11cfc646-74c7-4e43-bcaa-4b8f89316224",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 166,
+  "height": 144,
+  "platformSettings": {},
+  "subMetas": {
+    "FlagZombieLostHeadAttack_5": {
+      "ver": "1.0.6",
+      "uuid": "9395fbe2-d822-4066-8137-a63f3d6f13c9",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "11cfc646-74c7-4e43-bcaa-4b8f89316224",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 25,
+      "offsetY": 0.5,
+      "trimX": 60,
+      "trimY": 0,
+      "width": 96,
+      "height": 143,
+      "rawWidth": 166,
+      "rawHeight": 144,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
