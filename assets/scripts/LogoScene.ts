@@ -4,28 +4,41 @@ import Sound from "./Sound";
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class LogoScene extends cc.Component {
 
-    start () {
+    start () 
+    {
         //加载资源
-        ResMgr.Instance.LoadRes(() => {
-            //加载音频资源
-            Sound.Instance.loadSound(()=>{
-                //设置音效
-                Sound.Instance.setMusicVolume(1);
-                Sound.Instance.setEffectVolume(1);
-                //进行音效 播放
-                  Sound.Instance.playEffect("logo");
-            });
+        ResMgr.Instance.LoadRes(() => 
+        {
+                //加载音频资源
+                Sound.Instance.loadSound(()=>
+                {
+                    //设置音效
+                    Sound.Instance.setMusicVolume(1);
+                    Sound.Instance.setEffectVolume(1);
+                    //进行音效 播放
+                    //   Sound.Instance.playEffect("logo");
+                    //播放背景音效
+                    Sound.Instance.playMusic("bgm4");
+                });
         });
     
         
 
-        setTimeout(() => {
-            console.log("切换场景，logotomenu");
-            cc.director.loadScene('MenuScene');
-        }, 5.0 * 1000);
+        // setTimeout(() => {
+        //     console.log("切换场景，logotomenu");
+        //     cc.director.loadScene('MenuScene');
+        // }, 5.0 * 1000);
+    }
 
+      startBtn(event: any,str: string) 
+      {
+        if(str == "startBtn")
+        {
+            console.log("点击了start按钮");
+            cc.director.loadScene('MenuScene'); 
+        }
     }
 
 }
