@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "JalaPenoNormalAnimation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "7e795f75-c209-468e-82fd-9b4153ba3007"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "59654791-990a-4072-8c87-bf561d02651c"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "fedc25f0-9a1c-44a3-8172-346b7db3d440"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "c4d55d1f-058a-42e7-8017-71f30a55946d"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "3d2b95a6-3ed6-444c-aa19-2baf9a491865"
+            }
+          },
+          {
+            "frame": 0.625,
+            "value": {
+              "__uuid__": "95a7fcee-b1d5-4967-96c9-c27fad8dc81c"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "69744056-0411-4863-91c7-d5c5555a51a8"
+            }
+          },
+          {
+            "frame": 0.875,
+            "value": {
+              "__uuid__": "fa01e83c-97d1-42ba-8c71-ddb1063162dd"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

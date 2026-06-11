@@ -4,8 +4,13 @@ import Sound from "./Sound";
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class GameScene extends cc.Component {
 
+    public static instance: GameScene = null;
+    protected onLoad () :void
+    {
+        GameScene.instance = this;
+    }
 
 
     start () {
