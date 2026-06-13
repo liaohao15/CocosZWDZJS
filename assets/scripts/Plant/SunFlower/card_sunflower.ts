@@ -1,11 +1,11 @@
-import GameScene from "../GameScene";
-import Sound from "../Sound";
+import GameScene from "../../GameScene";
+import ResMgr from "../../ResMgr";
 
 const {ccclass, property} = cc._decorator;
 
 @ccclass
 export default class card_sunflower extends cc.Component {
-//声明变量
+    //声明变量
     graw: null | cc.Node = null;
     grawSprite: null | cc.Sprite = null;
     timer: number = 0;//计时器时间
@@ -14,17 +14,16 @@ export default class card_sunflower extends cc.Component {
     plantStatic:null | cc.Node = null;//植物UI体
     plantAction:null | cc.Node = null;//植物实体
 
-    start() {
+    start() 
+    {
         this.graw = this.node.getChildByName("graw");
         this.grawSprite = this.graw.getComponent(cc.Sprite);
         this.grawSprite.fillRange = 1;
 
-        //获取植物UI体
-        this.plantStatic = GameScene.instance.node.getChildByName("SunFlowerUI");
+        //获取植物UI体的预制体
+        this.plantStatic = cc.instantiate(ResMgr.Instance.getPrefab("SunFlowerUI"))
         this.plantStatic.active = false;
-        //获取植物实体
-        this.plantAction = GameScene.instance.node.getChildByName("SunFlower");
-        this.plantAction.active = false;
+        this.plantStatic.parent = GameScene.instance.node;
 
         //绑定触摸事件
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchStart, this);
@@ -33,45 +32,48 @@ export default class card_sunflower extends cc.Component {
         this.node.on(cc.Node.EventType.TOUCH_CANCEL, this.onTouchCancel, this);
     }
 
-    update(dt: number) {
-        if (this.timer >= this.coldTime) {
-            console.log("冷却完成，可以再次使用");
-            this.timer = 0;
-            this.grawSprite.fillRange = 1;
+    update(dt: number) 
+    {
+        if (this.grawSprite.fillRange >0) 
+        {
+            this.timer += dt;
+            this.grawSprite.fillRange = 1- this.timer / this.coldTime;
         }
-        //dt是实际帧率的时间间隔，单位是秒
-        this.timer += dt;
-        this.grawSprite.fillRange = 1- this.timer / this.coldTime;
     }
 
      //== 事件回调函数==//
     onTouchStart(event: any) 
     {
+        if(this.grawSprite.fillRange >0)return;
         console.log("点击了卡牌");
         //显示植物UI体
         this.plantStatic.active = true;
         this.plantStatic.position = GameScene.instance.node.convertToNodeSpaceAR(event.getLocation()); //将触摸位置转换为节点空间坐标
-
     }
 
-    onTouchMove(event: any) {
-        console.log("移动了卡牌");
+    onTouchMove(event: any) 
+    {
+        if(this.grawSprite.fillRange >0)return;
+        console.log("移动了卡牌")  
         this.plantStatic.position = GameScene.instance.node.convertToNodeSpaceAR(event.getLocation()); //将触摸位置转换为节点空间坐标
+        
+      
     }
-
     onTouchEnd(event: any) 
     {
+        if(this.grawSprite.fillRange >0)return;
         this.plantStatic.active = false;
-        console.log("取消了卡牌");
     }
-
     onTouchCancel(event: any) 
     {
+        if(this.grawSprite.fillRange >0)return;
         this.plantStatic.active = false;
-        console.log("放置了卡牌");
-        this.plantAction.active = true;
+        this.plantAction = cc.instantiate(ResMgr.Instance.getPrefab("SunFlower"));
         this.plantAction.position = GameScene.instance.node.convertToNodeSpaceAR(event.getLocation()); //将触摸位置转换为节点空间坐标
-        //进行种植音效播放
-        Sound.Instance.playEffect("plant");
+        this.plantAction.parent = GameScene.instance.node;
+        this.plantAction.active = true;
+        this.timer =0;
+        this.grawSprite.fillRange = 1;
     }
+
 }
